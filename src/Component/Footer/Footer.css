@@ -1,0 +1,29 @@
+.footer{
+   justify-content: center;
+   text-align: center;
+   border-top: 1px solid #000;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+   
+
+}
+h4{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
