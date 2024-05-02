@@ -1,0 +1,52 @@
+.header {
+    background-color: #fff; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+   nav li {
+    margin-right: 50px;
+   }
+  
+  nav a {
+    color: #544a4a;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #555;
+    transition-duration: 600ms;
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+  
+  .hire-me {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .hire-me:hover {
+    background-color: #3e8e41;
+  }
+  

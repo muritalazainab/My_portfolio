@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.text-container {
+width: 50%;
+}
+
+.text-container h1 {
+font-size: 45px;
+margin-bottom: 10px;
+}
+
+.text-container p {
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+.text-container button {
+background-color: #4CAF50; 
+color: #fff;
+padding: 10px 30px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+.text-container button:hover {
+  background-color: #3e8e41;
+}

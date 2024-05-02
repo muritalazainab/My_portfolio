@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <footer className='footer'>
         
-        
-          <p>{`Copyright &copy; ${currentYear} Designed by Muritala Zainab | All rights reserved.`}</p>
+        <p>+234 808 5864 752 | zmuritala@gmail.com </p>
+          <p>Copyright &copy; {currentYear} Designed by Muritala Zainab | All rights reserved.</p>
         </footer>
     
       );7
