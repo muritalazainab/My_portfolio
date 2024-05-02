@@ -1,0 +1,35 @@
+
+.projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .project h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }

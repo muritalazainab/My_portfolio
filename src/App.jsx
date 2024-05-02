@@ -4,6 +4,7 @@ import About from "./Component/About"
 import Header from "./Component/Header";
 import Home from "./Component/Home";
 import Services from "./Component/Services";
+import Project from "./Component/Project";
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Home/>
       <Services/>
+      <Project/>
       <About/>
       <Contact/>
     <Footer/>

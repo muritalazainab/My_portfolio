@@ -3,12 +3,12 @@ import "./Services.css"
 
 const Services = () => {
   return (
-    <div>
+    <>
      
-     <div><h1>Services</h1></div>
+     <div className='text'>
+      <h1>Services</h1>
+      </div>
     <div className="services">
-     
-     
         <div className="service1">
           <h2>Web Development</h2>
           <p>Building fast, secure, and scalable web applications using modern technologies like HTML, CSS, JavaScript, and React.</p>
@@ -29,7 +29,7 @@ const Services = () => {
         </div>
        
       </div>
-    </div>
+    </>
   
     
   )

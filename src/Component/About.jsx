@@ -1,13 +1,13 @@
 import React from "react";
-import "./About.css";
+import "./About.css"
 
 const About = () => {
   return (
     <>
-    <div className="about-section" id="about">
-      <div className="text-container">
-        <h1>About Me</h1>
-        <p>
+(
+    <div className="about">
+      <h1>About Me</h1>
+      <p>
             Hi, I'm Muritala Zainab, a passionate software developer with a
             strong background in building innovative solutions. With 1years of
             experience i possess a deep understanding
@@ -17,11 +17,13 @@ const About = () => {
             player with excellent communication skills, I thrive in fast-paced
             environments and enjoy working with others to deliver high-quality
             software products.Let's connect and build something amazing
-            together!
+            together!.
           </p>
-      </div>
      
     </div>
+  );
+
+
  
 
 
